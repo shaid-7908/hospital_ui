@@ -206,8 +206,8 @@ function Inputbox() {
             value={selectedUrl}
             onChange={handleUrlChange}
           >
-            <option value="jac">JAC URL</option>
-            <option value="bcm">BCM URL</option>
+            <option value="jac">JAC</option>
+            <option value="bcm">BCM</option>
           </select>
         </div>
 
