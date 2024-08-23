@@ -113,6 +113,8 @@ function Inputbox() {
       const urlMap = {
         jac: "https://workmate-api-private.onrender.com/sql_chain/sql_generator/get_sql/jac",
         bcm: "https://workmate-api-private.onrender.com/sql_chain/sql_generator/get_sql/bcm",
+        lin: "https://workmate-api-private.onrender.com/sql_chain/sql_generator/get_sql/lin",
+        mmc: "https://workmate-api-private.onrender.com/sql_chain/sql_generator/get_sql/mmc",
       };
 
       const reader1 = await fetchResponse(urlMap[selectedUrl], {
@@ -208,6 +210,8 @@ function Inputbox() {
           >
             <option value="jac">JAC</option>
             <option value="bcm">BCM</option>
+            <option value="lin">LIN</option>
+            <option value="mmc">MMC</option>
           </select>
         </div>
 
